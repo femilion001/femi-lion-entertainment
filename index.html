@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium event planning and entertainment curation by Femi Lion Entertainment. Expert event management with legal precision and creative excellence.">
+    <meta name="theme-color" content="#D4AF37">
+    <title>Femi Lion Entertainment | Premium Event Planning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Femi Lion</div>
+        <nav id="main-nav">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Bookings</a>
+        </nav>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <div class="hero">
+            <h1>FEMI LION <span>ENTERTAINMENT</span></h1>
+            <p>Premium event planning and entertainment curation managed with legal precision and creative excellence.</p>
+            <a href="#contact" class="btn btn-primary">Secure Your Date</a>
+        </div>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>The Founder's Edge</h2>
+                <p>Founded by Dosumu Oluwafemi Samuel, a forward-thinking law student and entertainment strategist. Femi Lion Entertainment blends sharp contractual discipline with high-tier event curation. We bridge the gap between structure and pure creative energy to ensure your projects run flawlessly from legal consulting to the final breakdown.</p>
+                <div class="about-features">
+                    <div class="feature">
+                        <span class="icon">⚖️</span>
+                        <h3>Legal Precision</h3>
+                        <p>Contract expertise and risk management</p>
+                    </div>
+                    <div class="feature">
+                        <span class="icon">🎨</span>
+                        <h3>Creative Excellence</h3>
+                        <p>Innovative concepts and execution</p>
+                    </div>
+                    <div class="feature">
+                        <span class="icon">✨</span>
+                        <h3>Flawless Delivery</h3>
+                        <p>End-to-end event management</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2>Our Offerings</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">📋</div>
+                        <h3>Event Planning</h3>
+                        <p>Comprehensive corporate and social event management. From timeline architecture to execution, we take care of logistics so you can enjoy the experience.</p>
+                        <ul class="service-features">
+                            <li>Venue selection & coordination</li>
+                            <li>Vendor management</li>
+                            <li>Timeline & logistics</li>
+                            <li>Day-of coordination</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🎭</div>
+                        <h3>Entertainment Curation</h3>
+                        <p>Nightlife planning, talent acquisition, lifestyle consulting, and conceptual parties curated to stand out and leave a lasting impression.</p>
+                        <ul class="service-features">
+                            <li>Talent acquisition</li>
+                            <li>DJ & music curation</li>
+                            <li>Lifestyle consulting</li>
+                            <li>Conceptual design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p class="contact-intro">Ready to create something extraordinary? Let's talk about your next event.</p>
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required aria-label="Your name" aria-required="true">
+                        <span class="error-message" id="name-error" role="alert"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required aria-label="Your email" aria-required="true">
+                        <span class="error-message" id="email-error" role="alert"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="event-type" name="event-type" placeholder="Event Type (e.g., Party, Corporate, Concert)" aria-label="Event type">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us about your upcoming project..." required aria-label="Project description" aria-required="true"></textarea>
+                        <span class="error-message" id="message-error" role="alert"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="border:none; cursor:pointer;">Send Brief</button>
+                    <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Femi Lion Entertainment. All Rights Reserved. Managed by Dosumu Oluwafemi Samuel.</p>
+            <div class="social-links">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">Instagram</a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter">Twitter</a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="Connect with us on LinkedIn">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
